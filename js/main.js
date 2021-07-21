@@ -10,12 +10,11 @@ console.log(secondArray);
 
 // ciclo
 
-for (i = 0; firstArray.length < secondArray.length; i++) {
-    do {
-        firstArray.push(secondArray[0]);
-    } while ((firstArray.length == secondArray.length) - 1)
+do {
+    firstArray.push(secondArray[0]);
+} while ((firstArray.length == secondArray.length) - 1)
     
-}
+
 
 console.log(firstArray);
 
