@@ -1,15 +1,17 @@
-// snack 3
+// snack 4
 
-var myArray = [5, 10, 15, 20, 25, 30, 35, 40];
+var firstArray = ['uno', 'due', 'tre', 'quattro', 'cinque'];
 
-var sommaDispari = 0
+console.log(firstArray);
 
-for (i = 0; i < myArray.length; i++) {
+var secondArray = ['uno', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto'];
 
-    if (i % 2 != 0) {
-        sommaDispari = (sommaDispari + myArray[i])
-    }
+console.log(secondArray);
 
+
+
+if (firstArray != secondArray)
+{
+    firstArray.push('sei', 'sette', 'otto');
 }
 
-console.log(sommaDispari)
