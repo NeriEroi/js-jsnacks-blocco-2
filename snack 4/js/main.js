@@ -12,7 +12,7 @@ console.log(secondArray);
 
 do {
     firstArray.push(secondArray[0]);
-} while ((firstArray.length == secondArray.length) - 1)
+} while (firstArray.length < secondArray.length)
     
 
 
