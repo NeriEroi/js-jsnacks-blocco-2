@@ -11,9 +11,10 @@ console.log(secondArray);
 // ciclo
 
 for (i = 0; firstArray.length < secondArray.length; i++) {
-    firstArray.push(secondArray[5]);
-    firstArray.push(secondArray[6]);
-    firstArray.push(secondArray[7]);
+    do {
+        firstArray.push(secondArray[0]);
+    } while ((firstArray.length == secondArray.length) - 1)
+    
 }
 
 console.log(firstArray);
