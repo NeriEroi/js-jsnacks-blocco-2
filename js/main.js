@@ -1,11 +1,15 @@
-// snack 1
+// snack 2
 
-var yourNumber = parseInt(prompt("Inserisci un numero:"));
+var myNameList = ['Luca', 'Fabio', 'Anna', 'Erica'];
 
-if (yourNumber % 2 == 0) {
-    console.log(yourNumber);
-}
+var mySurnameList = ['Rossi', 'Bianchi', 'Verdi', 'Gialli'];
 
-else {
-    console.log(yourNumber + 1);
+for (i = 0; i < 4; i++) {
+
+    var randomName = myNameList[Math.floor(Math.random() * myNameList.length)];
+
+    var randomSurname = mySurnameList[Math.floor(Math.random() * mySurnameList.length)];
+
+    console.log(randomName + ' ' + randomSurname);
+
 }
