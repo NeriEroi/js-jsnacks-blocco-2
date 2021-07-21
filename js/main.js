@@ -1,15 +1,15 @@
-// snack 2
+// snack 3
 
-var myNameList = ['Luca', 'Fabio', 'Anna', 'Erica'];
+var myArray = [5, 10, 15, 20, 25, 30, 35, 40];
 
-var mySurnameList = ['Rossi', 'Bianchi', 'Verdi', 'Gialli'];
+var sommaDispari = 0
 
-for (i = 0; i < 4; i++) {
+for (i = 0; i < myArray.length; i++) {
 
-    var randomName = myNameList[Math.floor(Math.random() * myNameList.length)];
-
-    var randomSurname = mySurnameList[Math.floor(Math.random() * mySurnameList.length)];
-
-    console.log(randomName + ' ' + randomSurname);
+    if (i % 2 != 0) {
+        sommaDispari = (sommaDispari + myArray[i])
+    }
 
 }
+
+console.log(sommaDispari)
