@@ -8,10 +8,17 @@ var secondArray = ['uno', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'ot
 
 console.log(secondArray);
 
+// ciclo
 
-
-if (firstArray != secondArray)
-{
-    firstArray.push('sei', 'sette', 'otto');
+for (i = 0; firstArray.length < secondArray.length; i++) {
+    firstArray.push(secondArray[5]);
+    firstArray.push(secondArray[6]);
+    firstArray.push(secondArray[7]);
 }
+
+console.log(firstArray);
+
+
+
+
 
